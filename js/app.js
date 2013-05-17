@@ -7,7 +7,7 @@ angular.module('WihomeHelp',
 	 'BridgeExample.directives'])
  
 	.config(['$routeProvider', '$locationProvider', function($routeProvider, $locationProvider) {
-        $routeProvider.when('/help/view/:id', { templateUrl: '/partials/help.html', controller: 'HelpController'});
+        $routeProvider.when('help/view/:id', { templateUrl: '/partials/help.html', controller: 'HelpController'});
 		$routeProvider.otherwise({redirectTo: '/'});
 		$locationProvider.html5Mode(true);
   }]);
