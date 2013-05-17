@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+    <widget xmlns = "http://www.w3.org/ns/widgets"
+        xmlns:gap = "http://phonegap.com/ns/1.0"
+        id        = "com.homersoft.help"
+        versionCode="10" 
+        version   = "1.0.0">
+
+    <!-- versionCode is optional and Android only -->
+
+    <name>Wiho.me help</name>            
+    <description>
+        Wiho.me mobile help prototype
+    </description>
+    <author href="http://www.wiho.me" email="michal.prokopowicz@homersoft.com">
+        Michal Prokopowicz
+    </author>
+</widget>
