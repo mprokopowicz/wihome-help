@@ -30,7 +30,7 @@ function SearchController($scope, LibraryIndex) {
 		if($scope.query.length > 0) {
 			$scope.results = LibraryIndex.searchByName($scope.query);
 		} else {
-			results = [];
+			$scope.results = [];
 		}
 	});
 }
