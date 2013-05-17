@@ -36,7 +36,7 @@
 				<div ng-show="results.length" class="list indented">
 					<ul>
 						<li ng-repeat="foundItem in results" class="arrow">
-							<a ng-href="/help/view/{{foundItem.idHelp}}">
+							<a ng-href="help/view/{{foundItem.idHelp}}">
 								{{foundItem.name}}
 							</a>
 						</li>
@@ -72,7 +72,7 @@
 					</li>
 					
 					<li ng-hide="isRoot" ng-repeat="summaryItem in libraryIndex">
-						<a ng-href="/help/view/{{summaryItem.idHelp}}">
+						<a ng-href="help/view/{{summaryItem.idHelp}}">
 							<strong>{{summaryItem.shortName}}</strong>
 							<small ng-show="summaryItem.description">{{summaryItem.description}}</small>
 						</a>
