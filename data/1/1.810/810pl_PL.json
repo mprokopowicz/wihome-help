@@ -1,0 +1,33 @@
+jsonCallback(
+{
+  "xdzial": "LOGIKA",
+  "xSX": "SX 810",
+  "xnazwa1": "SUMATOR ZMIAN",
+  "xopis_naglowek": "OPIS:",
+  "xopis": "Element logiczny SX 810. Posiada cztery wejścia i jedno wyjście binarne. Sygnał na wyjściu ma wartość, ostatniego z odebranych sygnałów na jednym z czterech wejść.",
+  "xsymbol_naglowek": "SYMBOL:",
+  "xwejscia_naglowek": "WEJŚCIA",
+  "xrysunek": "rysunek",
+  "xnazwa": "nazwa",
+  "xtyp": "typ",
+  "xpolaczenie": "podłączenie",
+  "xwyjscia_naglowek": "WYJŚCIA",
+  "xwejscia_1_2": "logiczne",
+  "xwejscia_1_3": "binarne",
+  "xwejscia_1_4": "wyjście dowolnego elementu",
+  "xwejscia_2_2": "logiczne",
+  "xwejscia_2_3": "binarne",
+  "xwejscia_2_4": "wyjście dowolnego elementu",
+  "xwyjscia_1_2": "wyjście",
+  "xwyjscia_1_3": "binarne",
+  "xwyjscia_1_4": "wejście dowolnego elementu",
+  "tab1_tytul": "Schemat połączenia",
+  "tab1_2_2": "Zapalenie lampki następuje po naciśnięciu dowolnego z przycisków, aby ją zgasić wystarczy wyłączyć którykolwiek nich, nawet jeśli pozostałe nadal są aktywne",
+  "xxrysunek": "rysunek",
+  "xxnazwa": "nazwa",
+  "xxtyp": "typ",
+  "xxpolaczenie": "podłączenie",
+  "sto": "Wersja dokumentu:",
+  "le": "<a href=\"../../common/legenda.html\" class=\"leg\">LEGENDA</a>"
+}
+);

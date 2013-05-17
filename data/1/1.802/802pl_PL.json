@@ -1,0 +1,30 @@
+jsonCallback(
+{
+  "xdzial": "LOGIKA",
+  "xSX": "SX 802",
+  "xnazwa1": "SUMA LOGICZNA (OR)",
+  "xopis_naglowek": "OPIS:",
+  "xopis": "Element logiczny SX 802. Posiada wejścia i wyjście binarne. W zależności od wybranego trybu, dostępne są 2, 3 lub 4 wejścia i jedno wyjście. Sygnał na wyjściu zostanie wygenerowany, gdy odebrany zostanie sygnał przynajmniej na jednym z wejść.",
+  "xsymbol_naglowek": "SYMBOL:",
+  "xwejscia_naglowek": "WEJŚCIA",
+  "xrysunek": "rysunek",
+  "xnazwa": "nazwa",
+  "xtyp": "typ",
+  "xpolaczenie": "podłączenie",
+  "xwyjscia_naglowek": "WYJŚCIA",
+  "xwejscia_1_2": "logiczne",
+  "xwejscia_1_3": "binarne",
+  "xwejscia_1_4": "wyjście binarne dowolnego sterownika",
+  "xwyjscia_1_2": "logiczne",
+  "xwyjscia_1_3": "binarne",
+  "xwyjscia_1_4": "wejście binarne dowolnego sterownika",
+  "xxrysunek": "rysunek",
+  "xxnazwa": "nazwa",
+  "xxtyp": "typ",
+  "xxpolaczenie": "podłączenie",
+  "sto": "Wersja dokumentu:",
+  "le": "<a href=\"../../common/legenda.html\" class=\"leg\">LEGENDA</a>",
+  "schemat": "Dzięki wykorzystaniu bramki logicznej OR, włączanie i wyłączanie oświetlenia za pomocą sterownika SX 550 może odbywać się za pośrednictwem kontrolki na panelu mobilnym, oraz za pomocą fizycznego wyłącznika monostabilnego, podłączonego do modułu rH-S2.",
+  "schemat_tytul": "Schemat połączenia"
+}
+);

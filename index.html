@@ -1,0 +1,91 @@
+<html ng-app="WihomeHelp">
+    <head>
+        <title>Wihome Help</title>
+
+        <link rel="stylesheet" type="text/css" href="css/lungo.css"/>
+        <link rel="stylesheet" type="text/css" href="css/lungo.icon.css"/>
+        <link rel="stylesheet" type="text/css" href="css/theme.lungo.css">
+		
+        <script type="text/javascript" src="/lib/quo/quo.debug.js"></script>
+        <script type="text/javascript" src="/lib/lungo/lungo.debug.js"></script>
+    </head>
+
+    <body lab-boot ng-controller="MainController">
+		
+        <section id="main" data-transition="slide" ng-controller="SearchController">
+            <header data-title="Wiho.me help">
+                <nav class="left">
+                    <a data-icon="menu" lab-aside='indexAside'></a>
+                </nav>
+            </header>
+			
+            <article id="something" class="active">
+				<div style="padding: 1em">
+					<form>
+						<fieldset>
+							<input ng-model="query" data-icon="search" type="search" placeholder="Search" autofocus="" />
+						</fieldset>
+					</form>        
+				</div>
+				
+				<div ng-show="results.length" class="list indented">
+					<ul>
+						<li ng-repeat="foundItem in results" class="arrow">
+							<a ng-href="/help/view/{{foundItem.idHelp}}">
+								{{foundItem.name}}
+							</a>
+						</li>
+					</ul>
+				</div>
+				
+				<div ng-show="results.length == 0 && query.length == 0">
+					Enter element name
+				</div>
+				
+				<div ng-show="results.length == 0 && query.length > 0">
+					Nothing found :(
+				</div>
+				
+            </article>
+        </section>
+
+
+
+        <aside id="indexAside" ng-controller="IndexAsideController">
+            <header>
+				<nav class="left box">
+					<a ng-show="isRoot" class="buttons" data-icon="book"></a>
+					<a ng-hide="isRoot" class="buttons" data-icon="left" ng-click="goBack()"></a>
+				</nav>
+                <span class="center title">{{title}}</span>
+            </header>
+            <article class="active list scroll">
+                <ul>
+                    <li ng-show="isRoot" ng-repeat="summaryItem in libraryIndex" ng-click="setCategories(summaryItem, $event)">
+						<div class="right tag">{{summaryItem.subcategories.length}}</div>
+						<strong>{{summaryItem.name}}</strong>
+					</li>
+					
+					<li ng-hide="isRoot" ng-repeat="summaryItem in libraryIndex">
+						<a ng-href="/help/view/{{summaryItem.idHelp}}">
+							<strong>{{summaryItem.shortName}}</strong>
+							<small ng-show="summaryItem.description">{{summaryItem.description}}</small>
+						</a>
+					</li>
+					
+                </ul>
+            </article>
+        </aside>
+
+        <lab-view></lab-view>
+
+        <script type="text/javascript" src="/lib/angular/angular.js"></script>
+        <script type="text/javascript" src="/lib/angular/lungo-angular-bridge.js"></script>
+        <script type="text/javascript" src="/js/app.js"></script>
+        <script type="text/javascript" src="/js/controllers.js"></script>
+        <script type="text/javascript" src="/js/services.js"></script>
+        <script type="text/javascript" src="/js/filters.js"></script>
+        <script type="text/javascript" src="/js/directives.js"></script>
+    </body>
+
+</html>

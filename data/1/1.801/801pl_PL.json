@@ -1,0 +1,30 @@
+jsonCallback(
+{
+  "xdzial": "LOGIKA",
+  "xSX": "SX 801",
+  "xnazwa1": "ILOCZYN LOGICZNY (AND)",
+  "xopis_naglowek": "OPIS:",
+  "xopis": "Element logiczny SX 801. Posiada wejścia i wyjście binarne. W zależności od wybranego trybu, dostępne są 2, 3 lub 4 wejścia i jedno wyjście. Sygnał na wyjściu zostanie wygenerowany tylko wtedy, gdy odebrane zostaną sygnały na wszystkich wejściach.",
+  "xsymbol_naglowek": "SYMBOL:",
+  "xwejscia_naglowek": "WEJŚCIA",
+  "xrysunek": "rysunek",
+  "xnazwa": "nazwa",
+  "xtyp": "typ",
+  "xpolaczenie": "podłączenie",
+  "xwyjscia_naglowek": "WYJŚCIA",
+  "xwejscia_1_2": "logiczne",
+  "xwejscia_1_3": "binarne",
+  "xwejscia_1_4": "wyjście binarne dowolnego sterownika",
+  "xwyjscia_1_2": "logiczne",
+  "xwyjscia_1_3": "binarne",
+  "xwyjscia_1_4": "wejście binarne dowolnego sterownika",
+  "xxrysunek": "rysunek",
+  "xxnazwa": "nazwa",
+  "xxtyp": "typ",
+  "xxpolaczenie": "podłączenie",
+  "sto": "Wersja dokumentu:",
+  "le": "<a href=\"../../common/legenda.html\" class=\"leg\">LEGENDA</a>",
+  "tab1_1_2": "Przykład pokazuje wykorzystanie bramki logicznej AND. w sterowniku SX 805 ustawiona jest godzina o której codziennie sprawdzany jest stan uzbrojenia alarmu. Jeżeli alarm nie jest uzbrojony wysłane zostaje powiadomienie SMS",
+  "tab1_tytul": "Schemat połączenia"
+}
+);

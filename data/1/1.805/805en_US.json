@@ -1,0 +1,33 @@
+jsonCallback(
+{
+  "xdzial": "LOGIC",
+  "xSX": "SX 805",
+  "xnazwa1": "KEY",
+  "xopis_naglowek": "DESCRIPTION:",
+  "xopis": "Logical element SX 805 has an input and universal output, as well as a \"key\" binary input. A signal of any value is received at the universal input and is transferred to the universal output only when a binary signal is also received at the \"key\" input.",
+  "xsymbol_naglowek": "SYMBOL:",
+  "xwejscia_naglowek": "INPUTS",
+  "xrysunek": "figure",
+  "xnazwa": "name",
+  "xtyp": "type",
+  "xpolaczenie": "connection",
+  "xwyjscia_naglowek": "OUTPUTS",
+  "xwejscia_1_2": "any value",
+  "xwejscia_1_3": "universal",
+  "xwejscia_1_4": "output with any value",
+  "xwejscia_2_2": "logical",
+  "xwejscia_2_3": "binary",
+  "xwejscia_2_4": "binary output of any controller",
+  "xwyjscia_1_2": "any value",
+  "xwyjscia_1_3": "universal",
+  "xwyjscia_1_4": "input with any value",
+  "tab1_tytul": "Connection schematic",
+  "tab1_1_2": "Thanks to the SX 805 module, switching the lights on and off from the mobile panel level will only be possible at certain times.",
+  "xxrysunek": "figure",
+  "xxnazwa": "name",
+  "xxtyp": "type",
+  "xxpolaczenie": "connection",
+  "sto": "Document version:",
+  "le": "<a href=\"../../common/legenda.html\" class=\"leg\">LEGEND</a>"
+}
+);

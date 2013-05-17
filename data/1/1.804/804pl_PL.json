@@ -1,0 +1,30 @@
+jsonCallback(
+{
+  "xdzial": "LOGIKA",
+  "xSX": "SX 804",
+  "xnazwa1": "ŁĄCZNIK OPÓŹNIAJĄCY 20ms",
+  "xopis_naglowek": "OPIS:",
+  "xopis": "Element logiczny SX 804. Posiada jedno wejście i jedno wyjście uniwersalne. Służy do prawidłowego zgrania czasowego logiki. <p>Sygnał na wyjściu zostanie ustawiony na wartość sygnału wejścia.",
+  "xsymbol_naglowek": "SYMBOL:",
+  "xwejscia_naglowek": "WEJŚCIA",
+  "xrysunek": "rysunek",
+  "xnazwa": "nazwa",
+  "xtyp": "typ",
+  "xpolaczenie": "podłączenie",
+  "xwyjscia_naglowek": "WYJŚCIA",
+  "xwejscia_1_2": "dowolna wartość",
+  "xwejscia_1_3": "uniwersalne",
+  "xwejscia_1_4": "wyjście binarne dowolnego sterownika",
+  "xwyjscia_1_2": "dowolna wartość",
+  "xwyjscia_1_3": "uniwersalne",
+  "xwyjscia_1_4": "wejście binarne dowolnego sterownika",
+  "xxrysunek": "rysunek",
+  "xxnazwa": "nazwa",
+  "xxtyp": "typ",
+  "xxpolaczenie": "podłączenie",
+  "sto": "Wersja dokumentu:",
+  "le": "<a href=\"../../common/legenda.html\" class=\"leg\">LEGENDA</a>",
+  "schemat": "W przedstawionym przykładzie po naciśnięciu jednego klawisza na pilocie rH-S8 nastąpi załączenie obwodu zasilającego np. telewizor, oraz po upływie 40 ms od wciśnięcia przycisku, telewizor włączy się. W celu włączenia telewizora, został wykorzystany moduł podczerwieni rH-IR16.",
+  "schemat_tytul": "Schemat połączenia"
+}
+);

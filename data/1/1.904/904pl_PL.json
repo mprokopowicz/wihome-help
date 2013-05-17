@@ -1,0 +1,20 @@
+jsonCallback(
+{
+  "xdzial": "KONTROLKA",
+  "xSX": "SX 904",
+  "xnazwa1": "WYŚWIETLACZ DETEKCJI OBECNOŚCI",
+  "xopis_naglowek": "OPIS:",
+  "xopis": "Element wirtualny SX 904, widoczny w programie zdalnej kontroli. Posiada jedno wejście sygnalizacji stanu – obecny/nieobecny do podłączenia czujnika ruchu. Stosowany jest do animacji ruchu w pomieszczeniu.",
+  "xsymbol_naglowek": "SYMBOL:",
+  "xwejscia_naglowek": "WEJŚCIA",
+  "xwejscia_1_2": "czujnik ruchu",
+  "xwejscia_1_3": "binarne",
+  "xwejscia_1_4": "czujnik ruchu",
+  "xxrysunek": "rysunek",
+  "xxnazwa": "nazwa",
+  "xxtyp": "typ",
+  "xxpolaczenie": "podłączenie",
+  "sto": "Wersja dokumentu:",
+  "le": "<a href=\"../../common/legenda.html\" class=\"leg\">LEGENDA</a>"
+}
+);

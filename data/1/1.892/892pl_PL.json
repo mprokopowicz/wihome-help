@@ -1,0 +1,28 @@
+jsonCallback(
+{
+  "xdzial": "KONTROLKA",
+  "xSX": "SX 892",
+  "xnazwa1": "WYŚWIETLACZ KOLOROWY PROSTOKĄTNY",
+  "xopis_naglowek": "OPIS:",
+  "xsymbol_naglowek": "SYMBOL:",
+  "xwejscia_naglowek": "WEJŚCIA",
+  "xopis": "Element SX 892 spełnia rolę wyświetlacza. W zależności od stanu sygnału otrzymanego na wejściu, zmienia swój wygląd w programie zdalnej kontroli.",
+  "xwejscia_1_2": "wejście stanu",
+  "xwejscia_1_3": "binarne",
+  "xwejscia_1_4": "wyjście binarne dowolnego sterownika",
+  "tab1_tytul": "Ustawienia instalatora",
+  "tab1_1_1": "nazwa funkcji",
+  "tab1_1_2": "opis",
+  "tab1_1_3": "zakres",
+  "tab1_2_1": "kolor przy nieaktywnym wejściu",
+  "tab1_2_2": "ustala kolor dla tego stanu",
+  "tab1_2_3": "brak; szary; zielony; czerwony; niebieski żółty",
+  "tab1_3_1": "kolor przy aktywnym wejściu",
+  "xxrysunek": "rysunek",
+  "xxnazwa": "nazwa",
+  "xxtyp": "typ",
+  "xxpolaczenie": "podłączenie",
+  "sto": "Wersja dokumentu:",
+  "le": "<a href=\"../../common/legenda.html\" class=\"leg\">LEGENDA</a>"
+}
+);

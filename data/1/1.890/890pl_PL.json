@@ -1,0 +1,31 @@
+jsonCallback(
+{
+  "xdzial": "KONTROLKA",
+  "xSX": "SX 890",
+  "xnazwa1": "WYŚWIETLACZ TAK/NIE",
+  "xopis_naglowek": "OPIS:",
+  "xopis": "Element SX 890 spełnia rolę wyświetlacza. W zależności od stanu sygnału otrzymanego na wejściu, zmienia swój wygląd w programie zdalnej kontroli.<p>Zielona ikona - logiczne '1'. Czerwona ikona - logiczne '0'<p>Stan wejścia podawany jest na wyjście.",
+  "xsymbol_naglowek": "SYMBOL:",
+  "xwejscia_naglowek": "WEJŚCIA",
+  "xrysunek": "rysunek",
+  "xnazwa": "nazwa",
+  "xtyp": "typ",
+  "xpolaczenie": "podłączenie",
+  "xwyjscia_naglowek": "WYJŚCIA",
+  "xwejscia_1_2": "sygnał wejściowy",
+  "xwejscia_1_3": "binarne",
+  "xwejscia_1_4": "wyjście binarne dowolnego elementu",
+  "xwejscia_2_2": "animacja",
+  "xwejscia_2_3": "binarne",
+  "xwejscia_2_4": "wyjście binarne dowolnego elementu",
+  "xwyjscia_1_2": "stan elementu",
+  "xwyjscia_1_3": "binarne",
+  "xwyjscia_1_4": "wejście binarne dowolnego elementu",
+  "xxrysunek": "rysunek",
+  "xxnazwa": "nazwa",
+  "xxtyp": "typ",
+  "xxpolaczenie": "podłączenie",
+  "sto": "Wersja dokumentu:",
+  "le": "<a href=\"../../common/legenda.html\" class=\"leg\">LEGENDA</a>"
+}
+);

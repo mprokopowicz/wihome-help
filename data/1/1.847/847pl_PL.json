@@ -1,0 +1,33 @@
+jsonCallback(
+{
+  "xdzial": "STEROWNIK",
+  "xSX": "SX 847",
+  "xnazwa1": "MULTIPLEXER",
+  "xopis_naglowek": "OPIS:",
+  "xopis": "Element logiczny SX 847. Posiada 8 wejść uniwersalnych, jedno wyjście uniwersalne, a także bajtowe wejście adresu. Wartość sygnałów podawanych na wejściach uniwersalnych przekazywana jest na wyjście uniwersalne, w zależności od wybranego adresu wejścia.<p>Adres aktywnego wejścia uniwersalnego, z którego przekazywana jest wartość na wyjście, wybierany jest przez podanie wartości od 0-7 na wejście bajtowe.",
+  "xsymbol_naglowek": "SYMBOL:",
+  "xwejscia_naglowek": "WEJŚCIA",
+  "xrysunek": "rysunek",
+  "xnazwa": "nazwa",
+  "xtyp": "typ",
+  "xpolaczenie": "podłączenie",
+  "xwyjscia_naglowek": "WYJŚCIA",
+  "xwejscia_1_2": "dowolna wartość",
+  "xwejscia_1_3": "uniwersalne",
+  "xwejscia_1_4": "wyjście dowolne",
+  "xwejscia_2_2": "adres",
+  "xwejscia_2_3": "bajtowe",
+  "xwejscia_2_4": "np. pilot",
+  "xwyjscia_1_2": "sygnał binarny",
+  "xwyjscia_1_3": "binarne",
+  "xwyjscia_1_4": "wejście dowolnego sterownika",
+  "xxrysunek": "rysunek",
+  "xxnazwa": "nazwa",
+  "xxtyp": "typ",
+  "xxpolaczenie": "podłączenie",
+  "sto": "Wersja dokumentu:",
+  "le": "<a href=\"../../common/legenda.html\" class=\"leg\">LEGENDA</a>",
+  "tab1_1_2": "Przykład ilustruje wykorzystanie pilota do odczytu temperatury z różnych miejsc przy użyciu jednej kontrolki panelu dotykowego. Wybierając przycisk na pilocie przełączamy się między odczytem temperatury np. z garażu, z zewnątrz, z pokoju.",
+  "tab1_tytul": "Schemat połączenia"
+}
+);

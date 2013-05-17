@@ -1,0 +1,30 @@
+jsonCallback(
+{
+  "xdzial": "LOGIC",
+  "xSX": "SX 803",
+  "xnazwa1": "LOGICAL EXCLUSIVE OR (XOR)",
+  "xopis_naglowek": "DESCRIPTION:",
+  "xopis": "The SX 803 logical element has two inputs and one binary output. The output signal is generated when an signal is received at either input.",
+  "xsymbol_naglowek": "SYMBOL:",
+  "xwejscia_naglowek": "INPUTS",
+  "xrysunek": "figure",
+  "xnazwa": "name",
+  "xtyp": "type",
+  "xpolaczenie": "connection",
+  "xwyjscia_naglowek": "OUTPUTS",
+  "xwejscia_1_2": "logical",
+  "xwejscia_1_3": "binary",
+  "xwejscia_1_4": "binary output of any controller",
+  "xwyjscia_1_2": "logical",
+  "xwyjscia_1_3": "binary",
+  "xwyjscia_1_4": "binary input of any controller",
+  "xxrysunek": "figure",
+  "xxnazwa": "name",
+  "xxtyp": "type",
+  "xxpolaczenie": "connection",
+  "sto": "Document version:",
+  "le": "<a href=\"../../common/legenda.html\" class=\"leg\">LEGEND</a>",
+  "tab1_1_2": "The schematic shows the use of an XOR gate to interrupt the machine's operation when a person is in its vicinity. The exception is if maintenance personnel are present, in which case the machine will work if the relevant code is entered.",
+  "tab1_tytul": "Connection schematic"
+}
+);

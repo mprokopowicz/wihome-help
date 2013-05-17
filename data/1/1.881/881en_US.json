@@ -1,0 +1,28 @@
+jsonCallback(
+{
+  "xdzial": "INDICATOR",
+  "xSX": "SX 881",
+  "xnazwa1": "SETTER FOR MANAGING TEMPERATURE",
+  "xopis_naglowek": "DESCRIPTION:",
+  "xopis": "The SX 881 element has an input and a temperature type output. The temperature value received at the input, 15-26.5°C, is displayed in the remote control programme and simultaneously returned at the temperature output.<p>The element also allows the value to be selected manually by clicking on the desired number which will be displayed and returned to the temperature output.<p>Click the key icon to prevent the value at the input from being refreshed or the value entered manually from being deleted. This will mean that the output will always return the temperature value that is selected manually.",
+  "xsymbol_naglowek": "SYMBOL:",
+  "xwejscia_naglowek": "INPUTS",
+  "xrysunek": "figure",
+  "xnazwa": "name",
+  "xtyp": "type",
+  "xpolaczenie": "connection",
+  "xwyjscia_naglowek": "OUTPUTS",
+  "xwejscia_1_2": "received temperature",
+  "xwejscia_1_3": "temperatures",
+  "xwejscia_1_4": "temperature element",
+  "xwyjscia_1_2": "set temperature",
+  "xwyjscia_1_3": "temperatures",
+  "xwyjscia_1_4": "temperature element",
+  "xxrysunek": "figure",
+  "xxnazwa": "name",
+  "xxtyp": "type",
+  "xxpolaczenie": "connection",
+  "sto": "Document version:",
+  "le": "<a href=\"../../common/legenda.html\" class=\"leg\">LEGEND</a>"
+}
+);

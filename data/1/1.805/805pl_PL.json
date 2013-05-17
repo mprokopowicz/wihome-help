@@ -1,0 +1,33 @@
+jsonCallback(
+{
+  "xdzial": "LOGIKA",
+  "xSX": "SX 805",
+  "xnazwa1": "KLUCZ",
+  "xopis_naglowek": "OPIS:",
+  "xopis": "Element logiczny SX 805. Posiada wejście i wyjście uniwersalne, a także wejście binarne 'klucz'. Sygnał o dowolnej wartości odebrany na wejściu uniwersalnym, przekazywany jest na wyjście uniwersalne, tylko wtedy gdy odebrany jest równocześnie sygnał binarny na wejściu 'klucz'.",
+  "xsymbol_naglowek": "SYMBOL:",
+  "xwejscia_naglowek": "WEJŚCIA",
+  "xrysunek": "rysunek",
+  "xnazwa": "nazwa",
+  "xtyp": "typ",
+  "xpolaczenie": "podłączenie",
+  "xwyjscia_naglowek": "WYJŚCIA",
+  "xwejscia_1_2": "dowolna wartość",
+  "xwejscia_1_3": "uniwersalne",
+  "xwejscia_1_4": "wyjście o dowolnej wartości",
+  "xwejscia_2_2": "logiczne",
+  "xwejscia_2_3": "binarne",
+  "xwejscia_2_4": "wyjście binarne dowolnego sterownika",
+  "xwyjscia_1_2": "dowolna wartość",
+  "xwyjscia_1_3": "uniwersalne",
+  "xwyjscia_1_4": "wejście o dowolnej wartości",
+  "tab1_tytul": "Schemat połączenia",
+  "tab1_1_2": "Dzięki wykorzystaniu modułu SX 805, włączanie oraz wyłączanie światła z poziomu panelu mobilnego, będzie możliwe tylko w określonych godzinach.",
+  "xxrysunek": "rysunek",
+  "xxnazwa": "nazwa",
+  "xxtyp": "typ",
+  "xxpolaczenie": "podłączenie",
+  "sto": "Wersja dokumentu:",
+  "le": "<a href=\"../../common/legenda.html\" class=\"leg\">LEGENDA</a>"
+}
+);

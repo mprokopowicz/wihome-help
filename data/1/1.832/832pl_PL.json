@@ -1,0 +1,30 @@
+jsonCallback(
+{
+  "xdzial": "LOGIKA",
+  "xSX": "SX 832",
+  "xnazwa1": "DEKODER LICZBY NA WYJŚCIA BINARNE",
+  "xopis_naglowek": "OPIS:",
+  "xopis": "Element logiczny SX 832. Posiada wejście bajtowe oraz 8 wyjść binarnych. Do wyjść binarnych przypisana jest odpowiednia wartość liczbowa.<p>Dekoduje wartość liczbową wejścia bajtowego, na sygnał na wyjściu binarnym.<p>Wartość liczbowa sygnału odebranego na wejściu bajtowym, przekazywana jest na przypisane odpowiedniej wartości liczbowej wyjście binarne.",
+  "xsymbol_naglowek": "SYMBOL:",
+  "xwejscia_naglowek": "WEJŚCIA",
+  "xrysunek": "rysunek",
+  "xnazwa": "nazwa",
+  "xtyp": "typ",
+  "xpolaczenie": "podłączenie",
+  "xwyjscia_naglowek": "WYJŚCIA",
+  "xwejscia_1_2": "wartość bajtowa",
+  "xwejscia_1_3": "bajtowe",
+  "xwejscia_1_4": "wyjście dowolnego sterownika",
+  "xwyjscia_1_2": "sygnał binarny",
+  "xwyjscia_1_3": "binarne",
+  "xwyjscia_1_4": "wejście dowolnego sterownika",
+  "tab1_tytul": "Schemat połączenia",
+  "tab1_1_2": "Przykład ilustruje załączanie konkretnych scen świetlnych przy użyciu panelu mobilnego.Sygnał z poszczególnych kontrolek panelu trafia do kodera i zostaje zamieniony na odpowiednią cyfrę. Następnie wyjście bajtowe przekazuje tą wartość do sterownika SX 553",
+  "xxrysunek": "rysunek",
+  "xxnazwa": "nazwa",
+  "xxtyp": "typ",
+  "xxpolaczenie": "podłączenie",
+  "sto": "Wersja dokumentu:",
+  "le": "<a href=\"../../common/legenda.html\" class=\"leg\">LEGENDA</a>"
+}
+);

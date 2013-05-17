@@ -1,0 +1,69 @@
+jsonCallback(
+{
+"xdzial":
+"STEROWNIK",
+"sto": "Wersja dokumentu: ",
+"xSX":
+"SX 750",
+"xnazwa1":
+"SMS - WYSYŁANIE",
+"xopis_naglowek":
+"OPIS:",
+"le": "<a href=\"..\/..\/common\/legenda.html\" class=\"leg\">LEGENDA<\/a>",
+"xopis":
+"<p>Element SX 750, służy do wysyłania wiadomości sms po otrzymaniu sygnału na wejściu. Posiada wejście binarne, do podłączenia dowolnego elementu oraz wejście na które podawana jest wartość do wysłania wiadomością sms (opcja).</P><p>Treść wiadomości oraz numer adresata definiowane są w ustawieniach instalatora.</P><P>Sterownik może działać w dwóch trybach:</P><ul><li>TRYB PROSTY:<p>Narastające zbocze sygnału otrzymanego na wejściu, powoduje wysłanie wiadomości SMS.</li><li>TRYB ROZSZERZONY:<p>W drugim trybie sterownik otrzymuje dodatkowe wejście które odpowiada za wysłanie dowolnej wartości którą otrzyma.</p></li></ul>",
+"xsymbol_naglowek":
+"SYMBOL:",
+"xwejscia_naglowek":
+"WEJŚCIA",
+"xrysunek":
+"rysunek",
+"xnazwa":
+"nazwa",
+"xtyp":
+"typ",
+"xpolaczenie":
+"podłączenie",
+"xxrysunek":
+"rysunek",
+"xxnazwa":
+"nazwa",
+"xxtyp":
+"typ",
+"xxpolaczenie":
+"podłączenie",
+"xwyjscia_naglowek":
+"WYJŚCIA",
+"xwejscia_1_2":
+"impuls",
+"xwejscia_1_3":
+"binarne",
+"xwejscia_1_4":
+"wyjście binarne dowolnego sterownika",
+"xwejscia_2_2":
+"zdarzenie/wartość",
+"xwejscia_2_3":
+"binarne",
+"xwejscia_2_4":
+"wyjście uniwersalne dowolnego sterownika",
+"tab1_tytul":"USTAWIENIA INSTALATORA",
+"tab1_1_1":"nazwa",
+"tab1_1_2":"opis",
+"tab1_1_3":"zakres",
+"tab1_1_4":"jednostka/opis",
+"tab1_2_1":"adresat",
+"tab1_2_2":"ustala adresata wiadomości",
+"tab1_2_3":"ochrona",
+"tab1_2_4":"wybierz adresata wiadomości z listy, dla opcji numer wpisany dodatkowo uzupełnij pole numer telefonu",
+"tab1_3_3":"użytkownik 1",
+"tab1_4_3":"użytkownik 2",
+"tab1_5_3":"ostatni numer z którego przyszła wiadomość",
+"tab1_6_3":"numer wpisany",
+"tab1_7_1":"tekst wiadomości",
+"tab1_7_2":"wpisz wiadomość do wysłania",
+"tab1_7_3":"dowolna treść",
+"tab1_8_1":"numer telefonu",
+"tab1_8_2":"wpisz numer telefonu pod który ma być wysłana wiadomość gdy wybrana jest opcja 'numer wpisany'",
+"tab1_8_3":"dowolny numer"
+}
+);
