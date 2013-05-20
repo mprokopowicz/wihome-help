@@ -67,10 +67,8 @@ function IndexAsideController($scope, LibraryIndex) {
 
 }
 
-function MainController($scope) {
-	$scope.callTopLevel = function() {
-		alert('Top level called!');
-	};
+function MainController($scope, $location) {
+
 }
 
 function HelpController($scope, $routeParams, LibraryIndex) {
