@@ -6,7 +6,9 @@ angular.module('WihomeHelp',
         'WihomeHelp.services',
         'BridgeExample.directives'])
 
-    .config(['$routeProvider', '$locationProvider', function($routeProvider, $locationProvider) {
+    .config(function($routeProvider, $compileProvider) {
         $routeProvider.when('/help/view/:id', {templateUrl: '/partials/help.html', controller: 'HelpController'});
         $routeProvider.otherwise({redirectTo: '/'});
-    }]);
+		
+		$compileProvider.urlSanitizationWhitelist(/^\s*(https?|ftp|mailto|file|tel):/);
+    });
