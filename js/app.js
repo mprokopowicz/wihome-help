@@ -1,4 +1,7 @@
 'use strict';
+window.addEventListener('load', function() {
+    FastClick.attach(document.body);
+}, false);
 
 var app = {
     // Application Constructor
@@ -11,6 +14,7 @@ var app = {
     // 'load', 'deviceready', 'offline', and 'online'.
     bindEvents: function() {
         document.addEventListener('deviceready', this.onDeviceReady, true);
+		document.addEventListener("menubutton", this.showAside, false);
     },
     // deviceready Event Handler
     //
@@ -21,6 +25,9 @@ var app = {
             angular.bootstrap(document, ['WihomeHelp']);
         });
     },
+	showAside: function() {
+		Lungo.View.Aside.toggle("#indexAside");
+	}
 };
 
 angular.module('WihomeHelp',

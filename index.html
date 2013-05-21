@@ -5,6 +5,8 @@
         <link rel="stylesheet" type="text/css" href="css/lungo.css"/>
         <link rel="stylesheet" type="text/css" href="css/lungo.icon.css"/>
         <link rel="stylesheet" type="text/css" href="css/theme.lungo.css">
+        <link rel="stylesheet" type="text/css" href="css/animations.css">
+        <link rel="stylesheet" type="text/css" href="css/app.css">
         <script type="text/javascript" src="lib/quo/quo.debug.js"></script>
         <script type="text/javascript" src="lib/lungo/lungo.debug.js"></script>
     </head>
@@ -58,19 +60,24 @@
 				</nav>
                 <span class="center title">{{title}}</span>
             </header>
-            <article class="active list scroll">
-                <ul>
-                    <li ng-show="isRoot" ng-repeat="summaryItem in libraryIndex" ng-click="setCategories(summaryItem, $event)">
-						<div class="right tag">{{summaryItem.subcategories.length}}</div>
-						<strong>{{summaryItem.name}}</strong>
+            <article class="active list scroll" ng-switch on="isRoot" data-ng-animate="'wave'">
+				
+                <ul  ng-switch-when="true">
+					<a class="index-list-item" ng-click="setCategories(summaryItem)" ng-repeat="summaryItem in libraryIndex">
+						<li>
+							<strong>{{summaryItem.name}}</strong>
+						</li>
+					</a>
+				</ul>
+				
+				<ul ng-switch-when="false" >
+					<a class="index-list-item" ng-repeat="summaryItem in libraryIndex" ng-href="#/help/view/{{summaryItem.idHelp}}">
+					<li>
+						<strong>{{summaryItem.shortName}}</strong>
+						<small ng-show="summaryItem.description">{{summaryItem.description}}</small>
 					</li>
+					</a>
 					
-					<li ng-hide="isRoot" ng-repeat="summaryItem in libraryIndex">
-						<a ng-href="#/help/view/{{summaryItem.idHelp}}">
-							<strong>{{summaryItem.shortName}}</strong>
-							<small ng-show="summaryItem.description">{{summaryItem.description}}</small>
-						</a>
-					</li>
 					
                 </ul>
             </article>
@@ -79,6 +86,7 @@
         <lab-view></lab-view>
 		
 		<script type="text/javascript" src="phonegap.js"></script>
+		<script type="text/javascript" src="lib/fastclick/fastclick.js"></script>
         <script type="text/javascript" src="lib/angular/angular.js"></script>
         <script type="text/javascript" src="lib/angular/lungo-angular-bridge.js"></script>
         <script type="text/javascript" src="js/app.js"></script>

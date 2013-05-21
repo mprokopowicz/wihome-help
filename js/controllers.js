@@ -49,6 +49,10 @@ function IndexAsideController($scope, LibraryIndex) {
 	$scope.title = "Library";
 	$scope.isRoot = true;
 
+	$scope.testClick = function() {
+		console.log("Click!", Date.now());
+	};
+
 	$scope.setCategories = function(category) {
 		if (category.subcategories.length) {
 			$scope.isRoot = false;

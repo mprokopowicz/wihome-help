@@ -1,0 +1,9 @@
+body {
+	-webkit-transform: translate3d(0,0,0);
+}
+.index-list-item {
+	display: block;
+}
+.index-list-item:active {
+	background: hsl(0, 0%, 9%)
+}
