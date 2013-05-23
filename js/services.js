@@ -248,6 +248,8 @@ angular.module('WihomeHelp.services', [])
 		return defualtLanguage;
 	}
 	
+	
+	
 	function getLanguage() {
 		var defered = $q.defer();
 		if( "globalization" in navigator ) {
