@@ -37,7 +37,7 @@ angular.module('WihomeHelp.services', [])
 					promises = [];
 
 			promises.push($http.get(htmlFile));
-			promises.push(Globalization.getLocaleName());
+			promises.push(Globalization.getLanguage());
 
 			$q.all(promises).then(function(responses) {
 				var documentHtml = responses[0].data,
@@ -152,7 +152,7 @@ angular.module('WihomeHelp.services', [])
 					deferred = $q.defer();
 
 			promises.push($http.get("data/summary.json"));
-			promises.push(Globalization.getLocaleName());
+			promises.push(Globalization.getLanguage());
 			
 			$q.all(promises).then(function(responses) {
 				var summary = responses[0].data.summary;
@@ -236,41 +236,38 @@ angular.module('WihomeHelp.services', [])
 			}
 		];
 	
-	function findSupportedLanguage( locale ) {
-		return "en_US";
+	function findSupportedLanguage( lang, searchBy) {
+		if(!searchBy) searchBy = 'name';
 		for(var i = 0; i < supportedLanguages.length; i++ ) {
-			if( supportedLanguages[i].code.indexOf(locale) !== -1 ) {
+			if( supportedLanguages[i][searchBy].indexOf(lang) !== -1 ) {
 				return supportedLanguages[i].code;
 			}
 		}
 		return defualtLanguage;
 	}
 	
-	function getLocaleName() {
+	function getLanguage() {
 		var defered = $q.defer();
 		if( "globalization" in navigator ) {
-			navigator.globalization.getPreferredLanguage(function(language){
-				alert(language.value);
-			});
 			//We are on phone gap
-			navigator.globalization.getLocaleName(function(locale){
-				defered.resolve( findSupportedLanguage(locale.value) );
+			navigator.globalization.getPreferredLanguage(function(language){
+				defered.resolve( findSupportedLanguage(language.value, 'name') );
 			});
 		} else {
 			//We are in standard browser
-			defered.resolve( findSupportedLanguage(navigator.language));
+			defered.resolve( findSupportedLanguage(navigator.language, 'code'));
 		}
 		return defered.promise;
 	}
 	
 	return {
-		getLocaleName: getLocaleName,
+		getLanguage: getLanguage,
 		getSupportedLanguages: function() {
 			return supportedLanguages;
 		},
 		getStrings: function() {
 			var defered = $q.defer();
-			getLocaleName().then(function(locale){
+			getLanguage().then(function(locale){
 				$http.get("data/" + locale + ".json").then(function(strings){
 					defered.resolve(strings.data);
 				});
