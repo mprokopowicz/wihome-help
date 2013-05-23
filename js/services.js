@@ -238,8 +238,10 @@ angular.module('WihomeHelp.services', [])
 	
 	function findSupportedLanguage( lang, searchBy) {
 		if(!searchBy) searchBy = 'name';
+		lang = lang.toLowerCase();
 		for(var i = 0; i < supportedLanguages.length; i++ ) {
-			if( supportedLanguages[i][searchBy].indexOf(lang) !== -1 ) {
+			var searchIn = supportedLanguages[i][searchBy].toLowerCase();
+			if( searchIn.indexOf(lang) !== -1 ) {
 				return supportedLanguages[i].code;
 			}
 		}
