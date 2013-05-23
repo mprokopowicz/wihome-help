@@ -9,9 +9,12 @@
 
     <name>Wiho.me help</name>            
     <description>
-        Wiho.me mobile help prototype
+        Wiho.me help
     </description>
     <author href="http://www.wiho.me" email="michal.prokopowicz@homersoft.com">
         Michal Prokopowicz
     </author>
+	
+	<preference name="permissions" value="none"/>
+	
 </widget>
