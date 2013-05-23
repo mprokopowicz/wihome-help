@@ -30,7 +30,6 @@ angular.module('WihomeHelp.services', [])
 		}
 		
 		this.getByIdHelp = function(idHelp) {
-			console.log("requested", idHelp);
 			var defered = $q.defer(),
 					splitted = idHelp.split("."),
 					path = "data/" + splitted[0] + "/" + idHelp + "/",
@@ -78,14 +77,12 @@ angular.module('WihomeHelp.services', [])
 						/* Update links */
 						var hrefRegExp = new RegExp('href=("|\')(\.\.\/){1,2}([0-9]{1,2}\/)?([0-9]{1,2}\.[0-9]{1,3})\/[0-9]{1,3}\.html(#[a-z0-9]+)?("|\')', 'gim');
 						var matches = getMatches(templateHtml, hrefRegExp);
-						console.log(matches);
 						angular.forEach(matches,function(match){
 							var helpId = match[4],
 								oldHref = match[0],
 								anchor = match[5] ? match[5] : "",
 								splitted = helpId.split("."),
 								newHref = 'href="#/help/view/' + helpId +  anchor + '"';
-							console.log(helpId, oldHref, newHref);
 							templateHtml = templateHtml.replace( new RegExp(oldHref, 'g'), newHref );
 						});
 
@@ -225,7 +222,7 @@ angular.module('WihomeHelp.services', [])
 	return new LibraryIndexService();
 })
 
-.factory('Globalization', function($q, $rootScope, $http) {
+.factory('Globalization', function($q, $http) {
 	
 	var defualtLanguage = "en_US",
 		supportedLanguages = [
@@ -240,8 +237,8 @@ angular.module('WihomeHelp.services', [])
 		];
 	
 	function findSupportedLanguage( locale ) {
+		return "en_US";
 		for(var i = 0; i < supportedLanguages.length; i++ ) {
-			console.log(supportedLanguages[i]);
 			if( supportedLanguages[i].code.indexOf(locale) !== -1 ) {
 				return supportedLanguages[i].code;
 			}
@@ -252,6 +249,9 @@ angular.module('WihomeHelp.services', [])
 	function getLocaleName() {
 		var defered = $q.defer();
 		if( "globalization" in navigator ) {
+			navigator.globalization.getPreferredLanguage(function(language){
+				alert(language.value);
+			});
 			//We are on phone gap
 			navigator.globalization.getLocaleName(function(locale){
 				defered.resolve( findSupportedLanguage(locale.value) );

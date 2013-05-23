@@ -19,7 +19,6 @@ function SearchController($scope, LibraryIndex) {
 
 function IndexAsideController($scope, LibraryIndex, Globalization) {
 	
-	console.log(Globalization.getLocaleName());
 
 	var index = LibraryIndex.getIndex();
 	$scope.libraryIndex = index;
@@ -50,15 +49,16 @@ function IndexAsideController($scope, LibraryIndex, Globalization) {
 function HelpController($scope, $routeParams, HelpDocument, $anchorScroll) {
 
 	$scope.$on('$routeChangeSuccess', function() {
-		console.log("Get help id", $routeParams.id);
-		$scope.helpDocument = HelpDocument.getByIdHelp($routeParams.id);
-		$scope.helpDocument.then(function(){
-			setTimeout(function(){
-				$scope.$apply(function(){
-					$anchorScroll();
-				});
-			},50);
-		});
+		if( $routeParams.id ) {
+			$scope.helpDocument = HelpDocument.getByIdHelp($routeParams.id);
+			$scope.helpDocument.then(function(){
+				setTimeout(function(){
+					$scope.$apply(function(){
+						$anchorScroll();
+					});
+				},50);
+			});
+		}
 	});
 
 }

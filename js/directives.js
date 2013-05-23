@@ -17,9 +17,7 @@ angular.module('WihomeHelp.directives', [])
 				if (iscroll !== false) {
 					iscroll.scrollTo(0, 0, 0);
 					setTimeout(function() {
-						console.log("h2", elm[0].children[0].clientHeight);
 						iscroll.refresh();
-						console.log(iscroll);
 					}, 0);
 				}
 			}

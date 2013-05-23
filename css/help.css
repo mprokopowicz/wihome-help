@@ -109,11 +109,11 @@
 	font-weight: bold; 
 }
 
-#help ..leg {
+#help .leg {
 	color: white;
 	font-weight: bold;
 }
-#help ..leg:hover {
+#help .leg:hover {
 	color: white;
 	font-weight: bold;
 }
