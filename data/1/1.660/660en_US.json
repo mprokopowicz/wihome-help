@@ -1,0 +1,27 @@
+jsonCallback(
+{
+  "xdzial": "CONTROLLER",
+  "xSX": "SX 660",
+  "xnazwa1": "CONSTANT TEMPERATURE",
+  "xopis_naglowek": "DESCRIPTION:",
+  "xopis": "The SX 660 element sets the constant temperature value. It has a temperature output which returns the temperature value set by the installer.",
+  "xsymbol_naglowek": "SYMBOL:",
+  "xwejscia_naglowek": "Installer Settings",
+  "xrysunek": "function name",
+  "xnazwa": "description",
+  "xtyp": "range",
+  "xwyjscia_naglowek": "OUTPUTS",
+  "xwejscia_1_2": "Temperature",
+  "xwejscia_1_3": "Sets the constant temperature value returned at the output",
+  "xwejscia_1_4": "-100°C - 100°C",
+  "xwyjscia_1_2": "temperature value",
+  "xwyjscia_1_3": "temperature",
+  "xwyjscia_1_4": "temperature regulator",
+  "xxrysunek": "figure",
+  "xxnazwa": "name",
+  "xxtyp": "type",
+  "xxpolaczenie": "connection",
+  "sto": "Document version:",
+  "le": "<a href=\"../../common/legenda.html\" class=\"leg\">LEGEND</a>"
+}
+);

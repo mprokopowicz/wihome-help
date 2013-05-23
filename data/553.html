@@ -1,0 +1,239 @@
+<div id="strona">
+<div id="all" style="left: 180px;">
+	<div id="naglowek_lewa">
+		<div id="dzial"><div id="xdzial">STEROWNIK</div></div>
+		<div id="SX"><div id="xSX">SX 550</div></div>
+	</div>
+	<div id="naglowek_prawa"><img src="../../common/LOGO.jpg"></div>
+
+<div id="nazwa"><div id="xnazwa1">POJEDYNCZY STEROWNIK OŚWIETLENIA</div></div>
+<div class="opis">
+	<div class="opis_lewa">
+		<div class="naglowek1"><div id="xopis_naglowek">OPIS:</div></div>	
+		<div class="txt"><div id="xopis"><p>Sterownik SX 550 steruje pracą ściemniaczy podłączonych do wyjścia. Wejściowe sygnały sterujące można podać z czujnika ruchu, z klawiszy łącznika oraz z kontrolki paneli dotykowych. Do wyjścia ściemnialnego można równolegle podłączyć dowolną ilość modułów sterujących oświetleniem, np. rH-D1S2, rH-D2S2, bądź rH-PWM3.</p><p>Oświetlenie może być załączane automatycznie po wykryciu obecności przez czujnik ruchu, lub ręcznie z klawiszy łącznika, programu zdalnej kontroli lub poprzez panel urządzeń mobilnych.</p><p>Jeżeli czujnik ruchu po wykryciu obecności spowoduje zapalenie światła, uruchamiany jest zegar odmierzający 2 sekundy. Gdy w tym czasie zostanie wciśnięty przycisk załączający/ wyłączający światło, światło nie przełącza się, a zegar odmierza od początku 2 sekundy. Po upływie 2 sekund od momentu załączenia światła przez czujnik ruchu, kolejne krótkie wciśnięcia przycisku załączają/ wyłączają światło. Chcąc wyłączyć światło natychmiast po załączeniu go przez czujnik ruchu, należy wcisnąć przycisk na minumum 1 sekundę a następnie puścić.</p><p>Czas podtrzymywania włączonego oświetlenia ustalany jest w "Ustawieniach Instalatora".</p><p>Jeżeli lampa zostanie zgaszona przyciskiem, to do automatycznego jej załączenia przez czujnik ruchu konieczna jest przerwa w detekcji obecności, długość tej przerwy jest stała i wynosi 10s. Czas ten jest konieczny, aby po wyłączeniu oświetlenia przyciskiem, czujnik ruchu nie załączył ponownie światła gdy opuszczamy pomieszczenie.</p><p>Konfigurowanie poziomu natężenia światła można przeprowadzić klawiszami łącznika, z programu zdalnego dostępu lub z poziomu urządzeń mobilnych.</p><p>Aby "Ustawienia Użytkownika" w programie zdalnego dostępu stały się widoczne, należy w menu kontekstowym SX 550 załączyć "Edytor dla użytkownika". Edytor przedstawiony jest za pomocą symbolu ołówka. W "Ustawieniach Użytkownika" ustala się poziom natężenia oświetlenia.</p><center><img src="550_editor.jpg"></center><p>Sterownik SX 550 współpracuje w sposób niejawny (bez podłączania) ze sterownikiem scen świetlnych SX 553. Lampy podłączone przez SX 550 mogą być w łatwy sposób zgaszone w danym pokoju, strefie lub w całym budynku poprzez SX 553.</p><p><b>UWAGA:</b><br>Jeżeli jest konieczność zróżnicowania jasności lampy w zależności od pory dnia, zalecane jest stosowanie sterownika <a href="../1.553/553.html"> SX 553 </a> nawet do jednej lampy.</p></div></div>	
+
+	</div>
+	<div class="opis_prawa">
+		<div class="naglowek1"><div id="xsymbol_naglowek">SYMBOL:</div></div>
+		<div class="txt">	
+<center><img src="550.jpg"></center>
+
+		</div>
+		<br><div id="leg"><div id="le"><a href="../../common/legenda.html" class="leg">LEGENDA</a></div></div>
+
+		</div>
+	
+	
+</div>
+
+<div class="opis">
+	<div class="opis_lewa">
+		
+			
+<!------------------- TABELA WEJSCIA_WYJSCIA POCZATEK --------------->
+			<table class="wejscia_wyjscia">
+				<tbody><tr><th colspan="4"><div class="naglowek2"><div id="xwejscia_naglowek">WEJŚCIA</div></div></th></tr>
+				<tr>
+					<th><div id="xrysunek">rysunek</div></th>
+					<th><div id="xnazwa">nazwa</div></th>
+					<th><div id="xtyp">typ</div></th>
+					<th><div id="xpolaczenie">połączenie</div></th>
+				</tr>	
+				<tr>
+					<td><img src="550_INP1.jpg"></td>
+					<td><div id="xwejscia_1_2">czujnik ruchu</div></td>
+					<td><div id="xwejscia_1_3">binarne</div></td>
+					<td><div id="xwejscia_1_4">czujnik ruchu <a href="../../17/17.16/16.html">rH-P1</a>, <a href="../../17/17.17/17.html">rH-P1T1</a>, wirtualny czujnik ruchu <a href="../1.883/883.html">SX 883</a></div></td>
+				</tr>	
+<!---------------------- 2 WIERSZ --------->							
+				<tr>
+					<td><img src="550_INP2.jpg"></td>
+					<td><div id="xwejscia_2_2">wejście załącz/wyłącz</div></td>
+					<td><div id="xwejscia_2_3">binarne</div></td>
+					<td><div id="xwejscia_2_4">wyjścia sensorów</div></td>
+				</tr>
+<!---------------------- 3 WIERSZ ---------->								
+				<tr>
+					<td><img src="550_INP3.jpg"></td>
+					<td><div id="xwejscia_3_2">wejście gaszące- wyłączenie oświetlenia</div></td>
+					<td><div id="xwejscia_3_3">binarne</div></td>
+					<td><div id="xwejscia_3_4">wyjścia sensorów</div></td>
+				</tr>
+<!---------------------- 4 WIERSZ ---------->								
+				<tr>
+					<td><img src="550_INP4.jpg"></td>
+					<td><div id="xwejscia_4_2">ustawienie poziomu oświetlenia</div></td>
+					<td><div id="xwejscia_4_3">oświetlenie</div></td>
+					<td><div id="xwejscia_4_4">kontrolki dla panelu dotykowego</div></td>
+				</tr>
+				</tbody></table>
+<!------------------- TABELA WEJSCIA_WYJSCIA KONIEC------------------>
+		
+	</div>
+	<div class="opis_prawa">
+		<div>
+			
+<!------------------- TABELA WEJSCIA_WYJSCIA POCZATEK --------------->
+			<table summary="tabela" class="wejscia_wyjscia">
+				<tbody><tr><th colspan="4"><div class="naglowek2"><div id="xwyjscia_naglowek">WYJŚCIA</div></div></th></tr>
+				<tr>
+					<th><div id="xxrysunek">rysunek</div></th>
+					<th><div id="xxnazwa">nazwa</div></th>
+					<th><div id="xxtyp">typ</div></th>
+					<th><div id="xxpolaczenie">połączenie</div></th>
+				</tr>	
+				
+				<tr>
+					<td><img src="550_OUT.jpg"></td>
+					<td><div id="xwyjscia_1_2">sterowanie poziomem oświetlenia</div></td>
+					<td><div id="xwyjscia_1_3">oświetlenie</div></td>
+					<td><div id="xwyjscia_1_4"><a href="../../17/17.136/136.html">rH-D1S2</a>, <a href="../../17/17.137/137.html">rH-D2S2</a> bądź <a href="../../17/17.140/140.html">rH-PWM3</a></div></td>
+				</tr>
+				</tbody></table>
+<!------------------- TABELA WEJSCIA_WYJSCIA KONIEC------------------>
+		</div>
+	</div>
+<!------------------- TABELA DODATKOWA 1 POCZATEK --------------->
+
+<!--------------------- 1,2 WIERSZ ---------------------->			
+			
+			<table class="tab">
+				<tbody><tr><th colspan="4"><div class="naglowek2"><div id="tab1_tytul">SX 550 PODŁĄCZENIE ŁĄCZNIKA</div></div></th></tr>	
+				<tr>
+					<td rowspan="5" width="40%"><center><img src="schemat1.jpg"><img src="550_exmp1.jpg"></center></td>
+					
+					<th colspan="3"><div class="naglowek3"><div id="tab5_tytul">POJEDYNCZY ŁĄCZNIK</div></div></th>
+				</tr>
+				<tr>
+					<th><div id="tab5_1_1">cel</div></th>
+					<th><div id="tab5_1_2">czynność</div></th>
+					<th><div id="tab5_1_3">klawisz</div></th>
+										
+				</tr>	
+				<tr>
+					<td><div id="tab5_2_1">Załączenie oświetlenia.</div></td>
+					<td><div id="tab5_2_2">Nacisnąć i puścić klawisz.</div></td>
+					<td><center><img src="k2.jpg"></center></td>
+				</tr>			
+				<tr>
+					<td><div id="tab5_3_1">Wyłączenie oświetlenia.</div></td>
+					<td><div id="tab5_3_2">Nacisnąć i puścić klawisz.</div></td>
+					<td><center><img src="k2.jpg"></center></td>
+				</tr>				
+				<tr>
+					<td><div id="tab5_4_1">Zmiana poziomu natężenia światła następuje w tempie 10% na sekundę w górę lub w dół. Zwolnienie przycisku powoduje zapamiętanie ustawionego poziomu oświetlenia.</div></td>
+					<td><div id="tab5_4_2">Aby rozjaśnić lub ściemnić należy nacisnąć i przytrzymać klawisz. W momencie wybrania odpowiedniej jasności, należy puścić klawisz.</div></td>
+					<td><center><img src="k2.jpg"></center></td>
+				</tr>	
+				<tr>
+					<td rowspan="6" width="40%"><center><img src="schemat2.jpg"><img src="550_exmp2.jpg"></center></td>
+
+					<th colspan="3">
+
+					<div class="naglowek3"><div id="tab6_tytul">PODWÓJNY ŁĄCZNIK</div></div></th></tr>
+						
+					
+				<tr>
+					<th><div id="tab6_1_1">cel</div></th>
+					<th><div id="tab6_1_2">czynność</div></th>
+					<th><div id="tab6_1_3">klawisz</div></th>				
+				</tr>	
+				<tr>
+					<td width="20%"><div id="tab6_2_1">Załączenie oświetlenia.</div></td>
+					<td><div id="tab6_2_2">Nacisnąć i puścić klawisz 1</div></td>
+					<td><center><img src="kk1.jpg"></center></td>
+				</tr>				
+				<tr>
+					<td><div id="tab6_3_1">Wyłączenie oświetlenia.</div></td>
+					<td><div id="tab6_3_2">Nacisnąć i puścić klawisz 2</div></td>
+					<td><center><img src="kk2.jpg"></center></td>
+				</tr>	
+			
+				<tr>
+					<td rowspan="2"><div id="tab6_4_1">Zmiana poziomu natężenia światła następuje w tempie 10% na sekundę. Zwolnienie przycisku powoduje zapamiętanie ustawionego poziomu oświetlenia.</div></td>
+					<td><div id="tab6_4_2">Aby rozjaśnić, należy nacisnąć i przytrzymać klawisz 1. W momencie wybrania odpowiedniej jasności, należy puścić klawisz 1.</div></td>
+					<td><center><img src="kk1.jpg"></center></td>
+				</tr>
+				<tr>
+					<td><div id="tab6_4_2a">Aby ściemnić, należy nacisnąć i przytrzymać klawisz 2. W momencie wybrania odpowiedniej jasności, należy puścić klawisz 2.</div></td>
+					<td><center><img src="kk2.jpg"></center></td>
+				</tr>				
+
+		</tbody></table>
+
+<!------------------- TABELA DODATKOWA 2 POCZATEK --------------->
+<!--------------------- 1,2 WIERSZ ---------------------->			
+			
+			<br><table class="tab">
+				<tbody><tr><th colspan="4"><div class="naglowek3"><div id="tab2_tytul">Ustawienia instalatora</div></div></th></tr>
+				<tr>
+					<th><div id="tab2_1_1">nazwa funkcji</div></th>
+					<th width="50%"><div id="tab2_1_2">opis</div></th>
+					<th><div id="tab2_1_3">zakres</div></th>
+					<th><div id="tab2_1_4">jednostka/opis</div></th>					
+				</tr>	
+				<tr>
+					<td rowspan="6"><div id="tab2_2_1">Załącz automatycznie gdy</div></td>
+					<td rowspan="6"><div id="tab2_2_2">Oświetlenie może być załączane automatycznie po wykryciu obecności przez czujnik ruchu. Ustawienie funkcji "Załącz automatycznie gdy" definiuje w jakich warunkach oświetlenia słonecznego zostanie załączone światło. Lampa zapali się gdy na zewnątrz będzie ciemniej niż wybrany poziom. Przy wybraniu opcji "zawsze", po wykryciu obecności światło załączy się niezależnie od oświetlenia słonecznego. Jeżeli zaś zostanie wybrane 'nigdy', czujnik po wykryciu ruchu nie zapali światła, ale będzie podtrzymywał czas świecenia gdy lampa zostanie załączona ręcznie.</div></td>
+					<td><center><div id="tab2_2_3">nigdy</div></center></td>
+					<td><center><div id="tab2_2_4">niezależnie od oświetlenia słonecznego, nie załączy światła</div></center></td>
+				</tr>
+		
+<!--------------------- 3 WIERSZ ------------------------>				
+				<tr>
+					<td><center><div id="tab2_3_3">bardzo ciemno</div></center></td>
+					<td><center><div id="tab2_3_4">załączy światło przy bardzo ciemnym oświetleniu słonecznym</div></center></td>
+				</tr>	
+
+ <!-------------------- 4 WIERSZ ----------------------->			
+				<tr>
+					<td><center><div id="tab2_4_3">ciemno</div></center></td>
+					<td><center><div id="tab2_4_4">załączy światło przy ciemnym oświetleniu słonecznym</div></center></td>
+				</tr>	
+
+ <!-------------------- 5 WIERSZ ------------------------>				
+				<tr>
+					<td><center><div id="tab2_5_3">średnio</div></center></td>
+					<td><center><div id="tab2_5_4">załączy światło przy średnim oświetleniu słonecznym</div></center></td>
+				</tr>	
+ <!-------------------- 6 WIERSZ ------------------------>				
+				<tr>
+					<td><center><div id="tab2_6_3">prawie jasno</div></center></td>
+					<td><center><div id="tab2_6_4">załączy światło przy prawie jasnym oświetleniu słonecznym</div></center></td>
+				</tr>	
+ <!-------------------- 7 WIERSZ ------------------------>				
+				<tr>
+					<td><center><div id="tab2_7_3">zawsze</div></center></td>
+					<td><center><div id="tab2_7_4">załączy światło niezależnie od oświetlenia słonecznego</div></center></td>
+				</tr>	
+ <!-------------------- 8 WIERSZ ------------------------>				
+				<tr>
+					<td><div id="tab2_8_1">Czas świecenia</div></td>
+					<td><div id="tab2_8_2">Ustala czas podtrzymywania włączonego oświetlenia, które może być wyzwolone czujnikiem ruchu lub poprzez podłączony przycisk. W przypadku podłączenia czujnika ruchu, jest to czas przez jaki lampa będzie świeciła od ostatniej detekcji obecności. Każde kolejne wykrycie ruchu przez czujnik, przedłuża czas zapalonego oświetlenia o ustawioną wartość. Przypadek szczególny to podanie czasu 0 sekund, wtedy lampa świeci aż do momentu wyłączenia przyciskiem.</div></td>
+					<td><center><div id="tab2_8_3">0 - 1200</div></center></td>
+					<td><center><div id="tab2_8_4">sekunda</div></center></td>
+				</tr>	</tbody></table>
+				
+<!------------------- TABELA DODATKOWA 3 POCZATEK --------------->
+<!--------------------- 1,2 WIERSZ ---------------------->			
+			<br><table class="tab">
+				<tbody><tr><th colspan="4"><div class="naglowek3"><div id="tab3_tytul">Ustawienia użytkownika</div></div></th></tr>
+				<tr>
+					<th><div id="tab3_1_1">nazwa funkcji</div></th>
+					<th><div id="tab3_1_2">opis</div></th>
+					<th><div id="tab3_1_3">zakres</div></th>
+					
+				</tr>	
+				<tr>
+					<td><div id="tab3_2_1">Poziom oświetlenia</div></td>
+					<td><div id="tab3_2_2">Ustala poziom natężenia światła.</div></td>
+					<td><center><div id="tab3_2_3">10-100 %</div></center></td>
+				</tr>
+	
+				</tbody></table>
+
+	
+<br><div id="stopka"><div id="sto">Wersja dokumentu:</div><span id="version">2.2</span></div>
+</div>
+</div>
+</div>

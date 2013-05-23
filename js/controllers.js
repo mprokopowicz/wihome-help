@@ -1,32 +1,7 @@
 'use strict';
 
-function toggleRightAside() {
-	Lungo.View.Aside.toggle('#rightaside');
-}
-
-function AppCtrl($scope) {
-	$scope.name = "Some name";
-	/**
-	 * A short cut to manually refresh the application from the example/ directory
-	 */
-	$scope.refreshApplication = function() {
-		window.location = '/examples/simple/index.html';
-	}
-
-
-	scope.$on('$routeChangeStart', function(next, current) {
-		console.log(arguments);
-	});
-
-
-	console.log('AppCtrl::AppCtrl() - Instantiated');
-
-	$scope.triggerAside = function() {
-		console.log('triggering aside');
-		Lungo.Router.aside('main', 'aside1');
-	}
-
-	$scope.triggerRightAside = toggleRightAside;
+function MainController($scope, Globalization) {
+	$scope.strings = Globalization.getStrings();
 }
 
 function SearchController($scope, LibraryIndex) {
@@ -42,11 +17,12 @@ function SearchController($scope, LibraryIndex) {
 	});
 }
 
-function IndexAsideController($scope, LibraryIndex) {
+function IndexAsideController($scope, LibraryIndex, Globalization) {
+	
+	console.log(Globalization.getLocaleName());
 
 	var index = LibraryIndex.getIndex();
 	$scope.libraryIndex = index;
-	$scope.title = "Library";
 	$scope.isRoot = true;
 
 	$scope.testClick = function() {
@@ -55,31 +31,34 @@ function IndexAsideController($scope, LibraryIndex) {
 
 	$scope.setCategories = function(category) {
 		if (category.subcategories.length) {
+			$scope.currentCategory = category;
 			$scope.isRoot = false;
-			$scope.title = category.name;
 			$scope.libraryIndex = category.subcategories;
 		} else {
 			return;
 		}
 	};
-
+	
 	$scope.goBack = function() {
+		$scope.currentCategory = false;
 		$scope.libraryIndex = index;
 		$scope.isRoot = true;
-		$scope.title = "Library";
+		
 	};
-
 }
 
-function MainController($scope, $location) {
-
-}
-
-function HelpController($scope, $routeParams, LibraryIndex) {
+function HelpController($scope, $routeParams, HelpDocument, $anchorScroll) {
 
 	$scope.$on('$routeChangeSuccess', function() {
-		$scope.idHelp = $routeParams.id;
-		$scope.help = LibraryIndex.getById($routeParams.id);
+		console.log("Get help id", $routeParams.id);
+		$scope.helpDocument = HelpDocument.getByIdHelp($routeParams.id);
+		$scope.helpDocument.then(function(){
+			setTimeout(function(){
+				$scope.$apply(function(){
+					$anchorScroll();
+				});
+			},50);
+		});
 	});
 
 }

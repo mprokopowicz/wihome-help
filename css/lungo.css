@@ -128,7 +128,7 @@ footer nav.with-labels .icon{line-height:36px}
 footer nav.with-labels abbr{display:block !important;margin-top:-8px;z-index:1;font-size:11px;line-height:14px;overflow:hidden;white-space:nowrap;text-overflow:ellipsis}
 
 .overthrow-enabled .overthrow{overflow:auto;-webkit-overflow-scrolling:touch}
-.scroll{overflow-x:hidden;overflow-y:scroll;-webkit-overflow-scrolling:touch;-webkit-box-flex:1;}
+.scroll{overflow-x:hidden;overflow-y:scroll;-webkit-box-flex:1;}
 .scroll.horizontal{overflow-x:scroll;overflow-y:hidden;white-space:nowrap}
 .scroll > *{-webkit-transform:translate3d(0,0,0)}
 :not(.icon).left{float:left}

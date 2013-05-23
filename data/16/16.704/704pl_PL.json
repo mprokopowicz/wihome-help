@@ -1,0 +1,18 @@
+jsonCallback(
+{
+  "xdzial": "KONTROLKA",
+  "xSX": "SX 704",
+  "xnazwa1": "PUSTY PRZYCISK DOTYKOWY",
+  "xopis_naglowek": "OPIS:",
+  "xopis": "Kontrolka SX 704 jest elementem wirtualnym. Przyciski dotykowe wykorzystuje się w panelach dostępnych w programie zdalnej kontroli, a także w aplikacjach na urządzenia przenośne i poprzez stronę www. Kontrolka służy do wypełnienia pustych pól na panelu mobilnym dla uzyskania lepszych efektów wizualnych.",
+  "xsymbol_naglowek": "SYMBOL:",
+  "tab2_tytul": "Widok panelu dotykowego",
+  "tab2_1": "w programie konfiguracyjnym",
+  "tab2_2": "w urządzeniu mobilnym/przeglądarce",
+  "tab2_tytul1": "bez kontrolki SX 704",
+  "tab2_tytul2": "z kontrolką SX 704",
+  "sto": "Wersja dokumentu:",
+  "le": "<a href=\"../../common/legenda.html\" class=\"leg\">LEGENDA</a>",
+  "podsymbolem": "Kontrolkę należy umieścić na siatce urządzenia mobilnego."
+}
+);

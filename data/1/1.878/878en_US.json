@@ -1,0 +1,25 @@
+jsonCallback(
+{
+  "xdzial": "INDICATOR",
+  "xSX": "SX 878",
+  "xnazwa1": "VIRTUAL REMOTE CONTROL",
+  "xopis_naglowek": "DESCRIPTION:",
+  "xopis": "The SX 878 element fulfills the role of a virtual, 8-key remote control and is visible in the remote control programme. It has a byte output to which is returned the value assigned to the button being pressed.",
+  "xsymbol_naglowek": "SYMBOL:",
+  "xwejscia_naglowek": "INPUTS",
+  "xrysunek": "figure",
+  "xnazwa": "name",
+  "xtyp": "type",
+  "xpolaczenie": "connection",
+  "xwyjscia_naglowek": "OUTPUTS",
+  "xwejscia_1_2": "number of the key being pressed",
+  "xwejscia_1_3": "byte",
+  "xwejscia_1_4": "byte input, e.g. <a href=\"../1.832/832.html\">SX 832</a>decoder",
+  "xxrysunek": "figure",
+  "xxnazwa": "name",
+  "xxtyp": "type",
+  "xxpolaczenie": "connection",
+  "sto": "Document version:",
+  "le": "<a href=\"../../common/legenda.html\" class=\"leg\">LEGEND</a>"
+}
+);

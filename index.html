@@ -1,4 +1,4 @@
-<html ng-app="WihomeHelp">
+<html>
     <head>
         <title>Wihome Help</title>
 		<meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1">
@@ -7,6 +7,7 @@
         <link rel="stylesheet" type="text/css" href="css/theme.lungo.css">
         <link rel="stylesheet" type="text/css" href="css/animations.css">
         <link rel="stylesheet" type="text/css" href="css/app.css">
+        <link rel="stylesheet" type="text/css" href="css/help.css">
         <script type="text/javascript" src="lib/quo/quo.debug.js"></script>
         <script type="text/javascript" src="lib/lungo/lungo.debug.js"></script>
     </head>
@@ -14,38 +15,43 @@
     <body lab-boot ng-controller="MainController">
 		
         <section id="main" data-transition="slide" ng-controller="SearchController">
-            <header data-title="Wiho.me help">
+            <header>
+				<span class="title centered">{{strings.app_title}}</span>
                 <nav class="left">
                     <a data-icon="menu" lab-aside='indexAside'></a>
                 </nav>
             </header>
 			
-            <article id="something" class="active">
-				<div style="padding: 1em">
-					<form>
+            <article id="search-article" class="active">
+				<div id="search-query-wrapper">
+					<form id="search-form">
 						<fieldset>
-							<input ng-model="query" data-icon="search" type="search" placeholder="Search" autofocus="" />
+							<input  ng-model="query" data-icon="search" type="search" placeholder="{{strings.search_placeholder}}" autofocus="" />
 						</fieldset>
 					</form>        
 				</div>
 				
-				<div ng-show="results.length" class="list indented">
-					<ul>
-						<li ng-repeat="foundItem in results" class="arrow">
-							<a ng-href="#/help/view/{{foundItem.idHelp}}">
-								{{foundItem.name}}
-							</a>
-						</li>
-					</ul>
+				<div id="search-results-wrapper">
+					<div ng-show="results.length" class="list indented">
+						<ul>
+							<li ng-repeat="foundItem in results" class="arrow">
+								<a ng-href="#/help/view/{{foundItem.idHelp}}">
+									{{foundItem.name}}
+								</a>
+							</li>
+						</ul>
+					</div>
+
+					<div class="search-message" ng-show="results.length == 0 && query.length == 0">
+						<span class="icon info"></span> {{strings.search_start_message}}
+					</div>
+
+					<div class="search-message" ng-show="results.length == 0 && query.length > 0">
+						<span class="icon cancel"></span> {{strings.search_no_results_message}} <a lab-aside='indexAside'>{{strings.search_no_results_library}}</a>.
+					</div>
 				</div>
 				
-				<div ng-show="results.length == 0 && query.length == 0">
-					Enter element name
-				</div>
-				
-				<div ng-show="results.length == 0 && query.length > 0">
-					Nothing found :(
-				</div>
+
 				
             </article>
         </section>
@@ -58,11 +64,11 @@
 					<a ng-show="isRoot" class="buttons" data-icon="book"></a>
 					<a ng-hide="isRoot" class="buttons" data-icon="left" ng-click="goBack()"></a>
 				</nav>
-                <span class="center title">{{title}}</span>
+                <span class="center title" ng-bind="isRoot && strings.library_title || currentCategory.name"></span>
             </header>
-            <article class="active list scroll" ng-switch on="isRoot" data-ng-animate="'wave'">
+            <article class="active list scroll" ng-switch on="isRoot" ng-animate="'wave'">
 				
-                <ul  ng-switch-when="true">
+                <ul ng-switch-when="true">
 					<a class="index-list-item" ng-click="setCategories(summaryItem)" ng-repeat="summaryItem in libraryIndex">
 						<li>
 							<strong>{{summaryItem.name}}</strong>
@@ -87,6 +93,7 @@
 		
 		<script type="text/javascript" src="phonegap.js"></script>
 		<script type="text/javascript" src="lib/fastclick/fastclick.js"></script>
+		<script type="text/javascript" src="lib/iscroll4/iscroll-lite.js"></script>
         <script type="text/javascript" src="lib/angular/angular.js"></script>
         <script type="text/javascript" src="lib/angular/lungo-angular-bridge.js"></script>
         <script type="text/javascript" src="js/app.js"></script>
@@ -94,6 +101,9 @@
         <script type="text/javascript" src="js/services.js"></script>
         <script type="text/javascript" src="js/filters.js"></script>
         <script type="text/javascript" src="js/directives.js"></script>
+		<script type="text/javascript">
+			app.initialize();
+		</script>
     </body>
 
 </html>

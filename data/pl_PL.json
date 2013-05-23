@@ -1,0 +1,10 @@
+{
+	"app_title": "WiHo.me - Pomoc",
+	"library_title": "Biblioteka",
+	
+	"search_placeholder": "Wyszukaj...",
+	"search_start_message": "Wpisz nazwę elementu, aby wyszukać.",
+	"search_start_message": "Wpisz nazwę elementu, aby wyszukać.",
+	"search_no_results_message": "Brak wyników. Spróbuj wpisać inną nazwę lub skorzystaj z ",
+	"search_no_results_library": "biblioteki elementów."
+}

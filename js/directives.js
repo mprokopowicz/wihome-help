@@ -2,16 +2,29 @@
 
 /* Directives */
 
-angular.module('BridgeExample.directives', []).
-  directive('appVersion', ['version', function(version) {
-    return function(scope, elm, attrs) {
-      elm.text(version);
-    };
-  }])
-  .directive('directiveAndLungoTest', function() {
-  	return {
-            restrict: 'E',
-            template: '<a data-icon="home">Has home icon?</a>'
+angular.module('WihomeHelp.directives', [])
+		.directive('iscroll', function($rootScope) {
+	return function(scope, elm, attrs) {
+		var iscroll = false;
+		setTimeout(function() {
+			iscroll = new iScroll(angular.element(elm)[0]);
+		}, 0);
 
-        }
-  });
+		var clientHeight = 0;
+		setInterval(function() {
+			if (clientHeight !== elm[0].children[0].clientHeight) {
+				clientHeight = elm[0].children[0].clientHeight;
+				if (iscroll !== false) {
+					iscroll.scrollTo(0, 0, 0);
+					setTimeout(function() {
+						console.log("h2", elm[0].children[0].clientHeight);
+						iscroll.refresh();
+						console.log(iscroll);
+					}, 0);
+				}
+			}
+		}, 40);
+
+	};
+});
+

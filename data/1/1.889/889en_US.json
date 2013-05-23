@@ -1,0 +1,25 @@
+jsonCallback(
+{
+  "xdzial": "INDICATOR",
+  "xSX": "SX 889",
+  "xnazwa1": "INPUT VALUE DISPLAY",
+  "xopis_naglowek": "DESCRIPTION:",
+  "xopis": "The SX 889 has a universal input. Any value received at the input is displayed in the remote control programme. Right click the mouse to access the contextual menu and choose Display state -> Value.",
+  "xsymbol_naglowek": "SYMBOL:",
+  "xwejscia_naglowek": "INPUTS",
+  "xrysunek": "figure",
+  "xnazwa": "name",
+  "xtyp": "type",
+  "xpolaczenie": "connection",
+  "xwyjscia_naglowek": "OUTPUTS",
+  "xwejscia_1_2": "any value",
+  "xwejscia_1_3": "universal",
+  "xwejscia_1_4": "input of any element",
+  "xxrysunek": "figure",
+  "xxnazwa": "name",
+  "xxtyp": "type",
+  "xxpolaczenie": "connection",
+  "sto": "Document version:",
+  "le": "<a href=\"../../common/legenda.html\" class=\"leg\">LEGEND</a>"
+}
+);

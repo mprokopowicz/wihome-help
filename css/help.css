@@ -1,0 +1,541 @@
+
+
+#help #all{*zoom:1}#help #all:before,#help #all:after{display:table;line-height:0;content:""}#help #all:after{clear:both}
+
+
+#help .help #naglowek_lewa {
+	width: 68%;
+	float: left;	
+	margin: 0px;
+	height: 150px;
+}
+
+#help .help #naglowek_prawa {
+	width: 28%;
+	float: right;
+	text-align: right;
+	margin: 0px;
+	height: 150px;
+}
+
+#help .help #dzial {
+	width: 90%;
+	float: left;
+	font-size: x-large;
+	font-weight: bold;
+	margin: 0;
+}
+
+#help .help #SX {
+	width: 90%;
+	float: left; 		
+	font-size: 60pt;
+	margin: 0;
+
+}
+
+
+
+
+
+#help .opis_lewa {
+	width: 46%;
+	margin-right: 1.5%;
+	margin-left: 2.5%;
+	float: left;
+}
+
+#help .opis_prawa {
+	width: 46%;
+	margin-right: 2,5%;
+	margin-left:1.5%;
+	float: left;
+}
+
+#help .naglowek1 {
+	
+	font-size: 14pt; 
+	font-weight: bold;
+	padding-left: 0.8cm;
+	padding-top: 0.5cm;
+}
+
+#help .opis {
+	float: left;
+	width: 100%;
+	margin: auto;
+	background-color: #EAE9E5;
+}
+
+#help .naglowek2 {
+	width: 100%;
+	background-color: #333333;
+	color: white;
+	font-size: 14pt;
+	float: left;
+	font-weight: bold; 
+	text-align: center;
+	margin-bottom: 0px;
+}
+
+#help .naglowek3 {
+	width: 100%;
+	clear: both;
+	margin: 0;
+	background-color: #333333;
+	color: white;
+	font-size: 14pt;
+	font-weight: bold; 
+	text-align: center;
+}
+
+
+#help .txt {
+
+	margin-left: 0.8cm;
+	margin-right:0.8cm;
+	margin-top: 0.8cm;
+	margin-bottom: 0.8cm;
+}
+
+
+#help .legenda {
+	background-color: #333333;
+	color: white;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	height: 30px;
+	font-weight: bold; 
+}
+
+#help ..leg {
+	color: white;
+	font-weight: bold;
+}
+#help ..leg:hover {
+	color: white;
+	font-weight: bold;
+}
+
+#help .wejscia_wyjscia {
+	padding: 0px;
+	width: 100%;
+	margin: auto;
+	margin-bottom: 20px;
+}
+#help .wejscia_wyjscia td {
+	width: 25%;
+	padding: 2px;
+	text-align: center;
+	border-radius:2px 2px;
+		background-color: white;
+}
+
+#help .wejscia_wyjscia th {
+	width: 25%;
+	background-color: #333333;
+	color: white;
+	text-align: center;
+	margin-top:0;
+	border-radius:5px 5px;
+}
+
+#help .wejscia_wyjscia_modul {
+	padding: 0px;
+	width: 100%;
+	margin: auto;
+	margin-bottom: 20px;
+}
+#help .wejscia_wyjscia_modul td {
+	width: 33.3%;
+	padding: 2px;
+	text-align: center;
+	border-radius:2px 2px;
+	background-color: white;
+	
+}
+
+#help .wejscia_wyjscia_modul th {
+	width: 33.3%;
+	background-color: #333333;
+	color: white;
+	text-align: center;
+	margin-top:0;
+	border-radius:5px 5px;
+}
+
+#help .uwagi {
+	padding: 0px;
+	width: 100%;
+	margin: auto;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+#help .uwagi td {
+	width: 100%;
+	padding: 4px;
+	text-align: justify;
+	font-size: 11px;
+	border-radius:2px 2px;
+	background-color: white;
+	
+	}
+#help .uwagi th {
+	width: 100%;
+	background-color: #333333;
+	color: white;
+	text-align: center;
+	margin-top:0;
+	font-size: 14pt;
+	font-weight: bold;
+	border-radius:5px 5px;
+}
+#help .uw {
+	padding: 0px;
+	width: 100%;
+	margin: auto;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+#help .uw td {
+	padding: 4px;
+	text-align: justify;
+	border-radius:2px 2px;
+	background-color: white;
+	
+	}
+#help .uw th {
+	background-color: #333333;
+	color: white;
+	text-align: center;
+	margin-top:0;
+	font-size: 14pt;
+	font-weight: bold;
+	border-radius:5px 5px;
+}
+#help .help #stopka {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin: auto;
+	width: 95%;
+	font-weight: bold;
+	font-size: 12px;
+	clear: both;
+	background-color: #333333;
+	color: white;
+	text-align: center;
+	border-radius:5px 5px;
+	border-bottom: 10px solid #EAE9E5;
+
+}
+
+#help .dane {
+	width: 75%;
+	max-width: 900px;
+	margin: auto;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	border: none;
+	border-collapse: collapse;
+
+}
+#help .dane th {
+	border-bottom: 2px solid #333333;
+	width: 100%;
+	font-size: 14pt;
+	font-weight: bold; 
+	text-align: center;
+	margin-bottom: 0px;
+	border-radius:5px 5px;
+}
+#help .r.q td {
+	border-bottom: 2px solid #333333;
+}
+th.male{
+	color: white;
+	font-size: 13px;
+}
+#help .dane td {
+	font-size: 12px;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top: 15px;
+	text-align: left;
+}
+#help .clear {
+	clear: both;
+}
+#help .tab1 {
+	padding: 0px;
+	width: 100%;
+	margin: auto;
+	margin-bottom: 20px;
+	background-color: #EAE9E5;
+}
+#help .tab1 td {
+	border: none;
+	font-size: 12px;
+	padding: 5px;
+	text-align: left;
+	max-width: 100%;
+	background-color: white;
+	border-radius:2px 2px;
+}
+
+#help .tab1 th {
+	background-color: #333333;
+	color: white;
+	text-align: center;
+	border-radius:5px 5px;
+}
+#help .tab2 {
+	padding: 0px;
+	width: 70%;
+	margin: auto;
+	margin-bottom: 20px;
+	background-color: #EAE9E5;
+}
+#help .tab2 td {
+	border: none;
+	font-size: 12px;
+	padding: 5px;
+	text-align: left;
+	max-width: 100%;
+	background-color: white;
+	border-radius:2px 2px;
+}
+
+#help .tab2 th {
+	background-color: #333333;
+	color: white;
+	text-align: center;
+	border-radius:5px 5px;
+}
+#help .tab {
+	width: 95%;
+	margin: auto;
+	margin-top: 0px;
+	background-color: #EAE9E5;
+}
+
+#help .tab td {
+	border: none;
+	font-size: 12px;
+	padding: 5px;
+	text-align: left;
+	max-width: 100%;
+	background-color: white;
+	border-radius:2px 2px;
+}
+
+#help .tab th {
+	border: none;
+	background-color: #333333;
+	color: white;
+	text-align: center;
+	border-radius:5px 5px;
+}
+#help .help #leg {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-right: 2%;
+	width: 40%;
+	float: right;
+	background-color: #333333;
+	color: white;
+	padding: 5px;
+	font-weight: bold;
+	text-align: center;
+	border-radius:6px 5px;
+}
+
+#help .help #leg:hover {
+	background-color: #595959;
+}
+
+a {
+   text-decoration: none;
+   color: blue;
+}
+
+#help .:hover {
+   text-decoration: none;
+   color: red;
+}
+
+
+#help .wierszz {
+	width: 97%;
+	border-bottom: 1px solid #d6d6d6;
+	float: left;
+	background-color: #EAE9E5;
+	border-radius:5px 5px;
+	margin-bottom: 3px;
+	border-top: 2px solid #595959;
+	border-bottom: 2px solid #595959;
+
+
+}
+
+#help .wierszz:hover {
+	width: 97%;
+	border-top: 2px solid black;
+	border-bottom: 2px solid black;
+	cursor : pointer;
+}
+#help .wierszz:active {
+	width: 97%;
+	border-top: 2px solid red;
+	border-bottom: 2px solid red;
+	cursor : pointer;
+}
+
+#help .oopis {
+	float: left;
+	top: 50%;
+	font-size: 8.5pt;
+	width: 96%;
+	padding: 2%;
+	font-weight: normal;
+	text-align: center;
+}
+.oopis a{
+	color: #333333;
+	text-decoration: none;
+}
+.tab553{	
+	background-color: #EAE9E5;
+}
+#help .tab553 td {
+	background-color: white;	
+}
+	
+.oopis a:hover{
+	color: #878787;
+	text-decoration: none;
+}
+#help .ppic {
+	float: left;
+	margin: auto;
+	width: 100%;
+	text-align: center;
+}
+#help .blank {
+	width: 100%;
+	height: 15px;
+	float: left;
+}
+#help .help #mnazwa {
+	width: 90%;
+	float: left;
+	padding-left: 5%;
+	padding-right: 5%;
+	padding-top: 2px; 
+	padding-bottom: 2px;
+	color: #ffffff; 
+	font-size: 11pt; 
+	font-weight: normal;
+	background-color: #333333;
+	border-radius:8px 8px;
+}
+#help .help #nazwa {
+	width: 90%;
+	float: left;
+	padding-left: 5%;
+	padding-right: 5%;
+	padding-top: 2px; 
+	padding-bottom: 2px;
+	color: #ffffff; 
+	font-size: 24pt; 
+	font-weight: bold;
+	background-color: #333333;
+	border-radius: 5px 5px;
+}
+#help .categoryTitle {
+	clear: both;
+	margin: 2px 0 5px 0;
+	background-color: #595959;
+	line-height: 23px;
+	width: 90%;
+	font-size: 10pt;
+	font-weight: normal;
+	color: white;
+	padding-left: 5%;
+	cursor : pointer;
+	border: 3px solid #333333;
+}
+#help .help #xxx {
+	width: 100px;
+
+	color: red;
+	position: absolute;
+	top: 10px;
+	left: 70px;
+}
+#help .help #xxx:hover {
+	left: 0px;
+}
+#help .help #click {
+	position: fixed;
+	left:0px;
+	height: 140px;
+	cursor : pointer;
+	width: 30px;
+	top: 50%;
+	margin-top: -100px;
+	TEXT-ALIGN: CENTER;
+	color: white;
+	font-weight: bold;
+	border-radius: 0px 10px 10px 0px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	background-image: url(b_off.jpg);
+}
+#help .help #click:hover {
+	background-image: url(b_onn.jpg);
+}
+#help .help #libr {
+	
+	position: fixed;
+	left: 3px;
+	top: 50px;
+	width: 162px;
+	bottom: 15px;
+	overflow-y: scroll;
+	overflow-x: hidden;
+	border-bottom: 5px solid #595959;
+	border-top: 5px solid #595959;
+	border-radius: 0px 0px 5px 5px;
+	border-left: 7px solid #595959;
+	background-color: #595959;
+	display: none;	
+}
+#help .help #librt {
+	position: fixed;
+	left: 3px;
+	top: 15px;
+	width: 155px;
+	height: 25px;
+	border-bottom: 5px solid #333333;
+	border-top: 5px solid #595959;
+	border-radius: 5px 5px 0px 0px;
+	border-left: 7px solid #595959;
+	border-right: 7px solid #595959;
+	background-color: #595959;
+	display:none;
+	text-align: center;
+	color: white;
+	font-size: 10pt;
+	font-weight: bold;
+	padding-top: 5px;
+}
+
+#help table {
+	border-collapse: separate;
+	border-spacing: 2px;
+}
+
+#help table td {
+	vertical-align: middle;
+}

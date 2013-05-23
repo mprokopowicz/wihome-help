@@ -1,0 +1,28 @@
+jsonCallback(
+{
+  "xdzial": "KONTROLKA",
+  "xSX": "SX 881",
+  "xnazwa1": "ZADAJNIK DO ZARZĄDZANIA TEMPERATURĄ",
+  "xopis_naglowek": "OPIS:",
+  "xopis": "Element SX 881 posiada wejście i wyjście typu temperatura. Wartość temperatury otrzymaną na wejściu - 15°C - 26,5°C, wyświetla w programie zdalnej kontroli i równocześnie podaje ją na wyjście typu temperatura.<p>Posiada możliwość ręcznego wybrania wartości, w tym celu należy kliknąć odpowiednią liczbę, zostanie ona wyświetlona i podana na wyjście typu temperatura.<p>Aby zablokować możliwość odświeżenia wartości z wejścia lub skasowania wartości ręcznej, należy kliknąć ikonę kluczyka. Dzięki temu, na wyjściu podawana będzie zawsze wartość temperatury wybrana ręcznie.",
+  "xsymbol_naglowek": "SYMBOL:",
+  "xwejscia_naglowek": "WEJŚCIA",
+  "xrysunek": "rysunek",
+  "xnazwa": "nazwa",
+  "xtyp": "typ",
+  "xpolaczenie": "podłączenie",
+  "xwyjscia_naglowek": "WYJŚCIA",
+  "xwejscia_1_2": "otrzymana temperatura",
+  "xwejscia_1_3": "temperatury",
+  "xwejscia_1_4": "element temperatury",
+  "xwyjscia_1_2": "zadana temperatura",
+  "xwyjscia_1_3": "temperatury",
+  "xwyjscia_1_4": "element temperatury",
+  "xxrysunek": "rysunek",
+  "xxnazwa": "nazwa",
+  "xxtyp": "typ",
+  "xxpolaczenie": "podłączenie",
+  "sto": "Wersja dokumentu:",
+  "le": "<a href=\"../../common/legenda.html\" class=\"leg\">LEGENDA</a>"
+}
+);

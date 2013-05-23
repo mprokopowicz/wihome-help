@@ -1,0 +1,33 @@
+jsonCallback(
+{
+  "xdzial": "LOGIC",
+  "xSX": "SX 810",
+  "xnazwa1": "COMBINER OF CHANGES",
+  "xopis_naglowek": "DESCRIPTION",
+  "xopis": "The SX 810 logical element has four inputs and one binary output. The output signal has the same value as the last signal received at one of the four inputs.",
+  "xsymbol_naglowek": "SYMBOL:",
+  "xwejscia_naglowek": "INPUTS",
+  "xrysunek": "figure",
+  "xnazwa": "name",
+  "xtyp": "type",
+  "xpolaczenie": "connection",
+  "xwyjscia_naglowek": "OUTPUTS",
+  "xwejscia_1_2": "logical",
+  "xwejscia_1_3": "binary",
+  "xwejscia_1_4": "output of any element",
+  "xwejscia_2_2": "logical",
+  "xwejscia_2_3": "binary",
+  "xwejscia_2_4": "output of any element",
+  "xwyjscia_1_2": "output",
+  "xwyjscia_1_3": "binary",
+  "xwyjscia_1_4": "input of any element",
+  "tab1_tytul": "Connection schematic",
+  "tab1_2_2": "The lamp lights up after any of the buttons is pressed. To switch it off, turn off any of them even if the remainder are still active.",
+  "xxrysunek": "figure",
+  "xxnazwa": "name",
+  "xxtyp": "type",
+  "xxpolaczenie": "connection",
+  "sto": "Document version:",
+  "le": "<a href=\"../../common/legenda.html\" class=\"leg\">LEGEND</a>"
+}
+);

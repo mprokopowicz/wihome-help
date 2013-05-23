@@ -1,0 +1,9 @@
+{
+	"app_title": "WiHo.me - Help",
+	"library_title": "Library",
+	
+	"search_placeholder": "Search...",
+	"search_start_message": "Eneter element name to start searching.",
+	"search_no_results_message": "No results. Try another name or use ",
+	"search_no_results_library": "library."
+}

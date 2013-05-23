@@ -1,0 +1,32 @@
+<section id="settings" data-transition='slide'>
+	<header>
+		<nav class="left">
+			<a data-icon="menu" lab-aside="indexAside"></a>
+		</nav>
+		<nav class="right">
+			<a data-icon="search" href="#/"></a>
+		</nav>
+		<span class="center title">Settings</span>
+	</header>
+	
+	<article class="active scroll list" id="main">
+		<ul>
+			<a href="#/settings/language">
+				<li class="arrow">
+					Language
+					<small>Current language</small>
+				</li>
+			</a>
+		</ul>
+	</article>
+	
+	<article id="language" class="list scroll">
+		<ul>
+			<li ng-repeat="language in supportedLanguages | orderBy:name">
+				{{language.name}}
+			</li>
+		</ul>
+	</article>
+	
+	
+</section>

@@ -1,0 +1,28 @@
+jsonCallback(
+{
+  "xdzial": "INDICATOR",
+  "xSX": "SX 892",
+  "xnazwa1": "SQUARE COLOUR DISPLAY",
+  "xopis_naglowek": "DESCRIPTION:",
+  "xsymbol_naglowek": "SYMBOL:",
+  "xwejscia_naglowek": "INPUTS",
+  "xopis": "The SX 892 element acts as a display. Depending on the state of the signal received at the input, it changes its appearance in the remote control programme.",
+  "xwejscia_1_2": "input state",
+  "xwejscia_1_3": "binary",
+  "xwejscia_1_4": "binary output of any element",
+  "tab1_tytul": "Installer Settings",
+  "tab1_1_1": "function name",
+  "tab1_1_2": "description",
+  "tab1_1_3": "range",
+  "tab1_2_1": "colour for a non-active input",
+  "tab1_2_2": "sets the colour for this state",
+  "tab1_2_3": "none; grey; green; red; blue yellow",
+  "tab1_3_1": "colour for an active input",
+  "xxrysunek": "figure",
+  "xxnazwa": "name",
+  "xxtyp": "type",
+  "xxpolaczenie": "connection",
+  "sto": "Document version:",
+  "le": "<a href=\"../../common/legenda.html\" class=\"leg\">LEGEND</a>"
+}
+);
