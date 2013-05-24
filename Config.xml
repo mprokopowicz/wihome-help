@@ -16,5 +16,10 @@
     </author>
 	
 	<preference name="permissions" value="none"/>
+	<preference name="webviewbounce" value="false" />
+	
+	<!-- Android specific -->
+	<preference name="android-minSdkVersion" value="10" />
+	<preference name="android-maxSdkVersion" value="17" />
 	
 </widget>
